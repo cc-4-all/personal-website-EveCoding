@@ -3,6 +3,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: "Lucida Sans";
+font-style: normal;
+scroll-behavior: smooth;
 }
 
 nav {
@@ -10,7 +12,7 @@ display: flex;
 width: 100%;
 justify-content: space-between;
 padding: 25px;
-background: magenta;
+background: rgb(255, 208, 224);
 }
 
 ul {
@@ -18,15 +20,31 @@ display: flex;
 list-style: none;
 width: 25%;
 justify-content: space-between;
+background: lightyellow;
 }
 
 main{
-    width: 1200px;
+    width: 2000px;
     margin: auto;
     text-align: center;
+    background:rgb(207, 242, 253)
 }
 
 h4 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.profile-item{
+margin-top: 50px;
+margin-bottom: 50px;
+
+
+}
+
+
+main,footer {
+width: 2000;
+height: 2000;
+}
+
